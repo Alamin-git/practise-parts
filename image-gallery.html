@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            /* display: grid;
+            grid-template-columns: repeat(3, 1fr); */
+        }
+
+        .photo-frame {
+            height: 210px;
+            width: 350px;
+            border: 2px solid lightcoral;
+            position: relative;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .detail {
+            position: absolute;
+            top: 0px;
+            text-align: center;
+            background-color: rgba(151, 167, 182, 0.349);
+            height: 180px;
+            padding-top: 30px;
+            display: none;
+            transition: 1s;
+            color: rgb(19, 19, 20);
+        }
+
+        .photo-frame:hover .detail {
+            display: block;
+            transition: 2s ease-in-out;
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5);
+            transition: transform 2s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2>My photo Album</h2>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="img/nature.jpg" alt="">
+                </div>
+                <div class="detail">
+                    <h2>Nature</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero similique vitae veritatis ullam
+                        cumque eveniet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
